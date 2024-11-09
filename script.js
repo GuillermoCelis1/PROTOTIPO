@@ -1,5 +1,5 @@
-let totalScore = 0; // Inicializa el puntaje total
-let fileUploaded = false; // Bandera para controlar si ya se subió un archivo
+let totalScore = 0;
+let fileUploaded = false;
 
 function addScore(value) {
     if (!fileUploaded) { // Verifica si ya se subió un archivo
@@ -11,9 +11,8 @@ function addScore(value) {
     }
 }
 
-// Lógica de control del input de archivo
 document.getElementById('file-upload').addEventListener('change', function () {
     if (this.files.length > 0) {
-        addScore(0.5); // Llama a la función addScore con el valor correspondiente
+        addScore(0.5);
     }
 });
