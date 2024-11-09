@@ -121,7 +121,6 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo elegante para la lista en "Planear" */
 .plan-list {
     list-style: none;
     margin: 20px auto;
@@ -153,14 +152,12 @@ main {
     margin-right: 10px;
 }
 
-/* Input de carga de archivo */
 .plan-list input[type="file"] {
     margin-top: 10px;
     display: block;
     font-size: 14px;
 }
 
-/* Botón de retroceso */
 .back-button {
     display: inline-block;
     margin-top: 20px;
